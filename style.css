@@ -17,7 +17,7 @@ main {
 
 .left-column {
     display: grid;
-    grid-template-rows: .75fr .75fr .5fr 1.5fr 2fr 2fr;
+    grid-template-rows: .25fr .25fr .25fr .75fr 1.25fr 1.25fr;
     text-align: center;
     width: 90%;
 }
@@ -60,6 +60,23 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.center-column-row2-column1 {
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    margin: 5px;
+}
+
+.center-column-row2-column2 {
+    display: grid;
+    grid-template-rows: 2fr 15fr 10fr;
+    margin: 5px;
+}
+
+.center-column-row2-column3 {
+    display: grid;
+    grid-template-rows: 2fr 15fr 0fr;
+    margin: 5px;
+}
 
 .right-column {
     display: grid;
@@ -83,4 +100,8 @@ main {
 
 .black-text {
     color: black;
+}
+
+.lightgrey-text {
+    color: lightgrey;
 }
