@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 10px solid purple;
+    height: 100%;
+    width: 100%;
+    color: blue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border: 5px solid orange;
+}
+
+
+.left-column {
+    display: grid;
+    grid-template-rows: .75fr .75fr .5fr 1.5fr 2fr 2fr;
+    border: 5px solid green;
+    text-align: center;
+}
+
+.left-column-rows {
+    border: 3px solid black;
+}
+
+
+.center-column {
+    display: grid;
+    grid-template-rows: 50px auto;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+.center-column-rows {
+    border: 3px dotted black;
+}
+
+.center-column-row1-header {
+    border: 3px solid yellow;
+    text-align: center;
+    height: 100%;
+}
+
+.portland-or {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.counties {
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+}
+
+.center-column-row2-columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.right-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr 10fr 1fr 1fr 1fr 1fr;
+    border: 3px solid red;
+    text-align: center;
+}
+
+.right-column-rows {
+    border: 3px solid black;
+}
+
+.lightgrey-bkgd {
+    background-color: lightgrey;
+}
+
+.white-bkgd {
+    background-color: white;
+}
+
+.black-text {
+    color: black;
+}
